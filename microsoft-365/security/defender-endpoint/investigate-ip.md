@@ -36,11 +36,16 @@ Identifying all devices in the organization that communicated with a suspected o
 
 You can find information from the following sections in the IP address view:
 
+- IP to device mapping
 - IP worldwide
 - Reverse DNS names
 - Alerts related to this IP
 - IP in organization
 - Prevalence
+
+## IP to device mapping
+
+In case where the IP detected in the alert is mapped to device (host) in the enviroment, the IP panel will show the device name and the time where the device was seen with the IP. Those correlations are based on Microsoft defender for endpoint events.
 
 ## IP Worldwide and Reverse DNS names
 
